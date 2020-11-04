@@ -27,7 +27,7 @@ public class Task {
     private Integer id;
 
     @Column(name="created_at", nullable=false)    //作成日時
-    private Timestamp creted_at;
+    private Timestamp created_at;
 
     @Column(name="updated_at", nullable=false)     //更新日時
     private Timestamp updated_at;
@@ -46,12 +46,12 @@ public class Task {
         this.id = id;
     }
 
-    public Timestamp getCreted_at() {
-        return creted_at;
+    public Timestamp getCreated_at() {
+        return created_at;
     }
 
-    public void setCreted_at(Timestamp creted_at) {
-        this.creted_at = creted_at;
+    public void setCreated_at(Timestamp creted_at) {
+        this.created_at = creted_at;
     }
 
     public Timestamp getUpdated_at() {
